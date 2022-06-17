@@ -1,7 +1,6 @@
 package Tests;
 
-import Config.ConfigProperties;
-import base.BaseTests;
+import Base.BaseTests;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import org.testng.Assert;

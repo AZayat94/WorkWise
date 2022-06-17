@@ -1,4 +1,4 @@
-package base;
+package Base;
 
 import Config.ConfigProperties;
 import Utils.ExcelUtils;
@@ -37,12 +37,12 @@ public class BaseTests {
         SparkReporter =new ExtentSparkReporter(System.getProperty("user.dir")+"/Reports/extentReport.html");
         reports.attachReporter(SparkReporter);
         ConfigProperties.InitializePropFile();
-        if (ConfigProperties.properties.getProperty("Browser").equalsIgnoreCase("Chrome"))
+        if (ConfigProperties.properties.getProperty("BrowserType").equalsIgnoreCase("Chrome"))
         {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
         }
-        else if (ConfigProperties.properties.getProperty("Browser").equalsIgnoreCase("FireFox"))
+        else if (ConfigProperties.properties.getProperty("BrowserType").equalsIgnoreCase("FireFox"))
         {
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
