@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <test verbose="2" preserve-order="true" name="G:/automation testing/testautomation1">
+        <classes>
+            <class name="Tests.Tests">
+                <methods>
+                    <include name="testCase1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="G:/automation testing/testautomation2">
+        <classes>
+            <class name="Tests.Tests">
+                <methods>
+                    <include name="testCase1"/>
+                    <include name="testCase2"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="G:/automation testing/testautomation3">
+        <classes>
+            <class name="Tests.Tests">
+                <methods>
+
+                    <include name="testCase3"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="G:/automation testing/testautomation4">
+        <classes>
+            <class name="Tests.Tests">
+                <methods>
+
+                    <include name="testCase4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
