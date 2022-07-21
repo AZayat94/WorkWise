@@ -39,6 +39,7 @@ public class CampusJagerPage {
     }
 
     public String Get_Title(){
+        ScrollIntoView(Header);
         return driver.findElement(Title).getText();
     }
     public void ScrollIntoView(By element){

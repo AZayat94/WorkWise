@@ -10,6 +10,7 @@ public class JobSearch_Page {
     private static WebDriver driver;
     JavascriptExecutor js;
     private static By Search_Box = By.xpath("//input[@type='text']");
+    private By Results = By.xpath("//div[contains(text(),'Quality Assurance Engineer (m/w/d) - Software Test')]");
     private static By JobTitle = By.tagName("h1");
 
     public JobSearch_Page(WebDriver driver){
@@ -19,7 +20,7 @@ public class JobSearch_Page {
 
     public void SearchForAJob(String JobName){
         driver.findElement(Search_Box).sendKeys(JobName);
-        driver.findElement(Search_Box).sendKeys(Keys.ENTER);
+        driver.findElement(Results).click();
     }
 
     public String getJobTitle(){

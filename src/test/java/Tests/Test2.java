@@ -22,8 +22,10 @@ public class Test2 extends BaseTests {
     @Test
     public void Task3_2(){
         for (int i = 0; i < Titles.size(); i++) {
+           String Title =  CampusJagerPage.Get_Title();
             CampusJagerPage.Click_on_Next_Button();
-            Assert.assertEquals(CampusJagerPage.Get_Title(), Titles.get(i));
+            System.out.println(Title);
+            Assert.assertEquals(Title, Titles.get(i));
 
         }
     }
