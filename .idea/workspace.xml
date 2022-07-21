@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea417c91-3d0a-4330-b14a-bd517c4dc8df" name="Changes" comment="Initial Commit">
+    <list default="true" id="ea417c91-3d0a-4330-b14a-bd517c4dc8df" name="Changes" comment="Fix Testcase 2 &amp; 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/extentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CampusJagerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CampusJagerPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/JobSearch_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/JobSearch_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <recent name="C:\Users\ZINAD\Desktop\Automation Interview\testautomation\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Tests.Task3_3">
+  <component name="RunManager" selected="TestNG.Test2.Task3_2">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="testautomation" />
       <method v="2">
@@ -176,8 +174,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Tests.Task3_3" />
         <item itemvalue="TestNG.Test2.Task3_2" />
+        <item itemvalue="TestNG.Tests.Task3_3" />
         <item itemvalue="TestNG.Tests.Task3_1" />
         <item itemvalue="TestNG.G:/automation testing/testautomation/testng.xml" />
         <item itemvalue="TestNG.Tests.TestCase1" />
@@ -221,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658415788947</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix Testcase 2 &amp; 3">
+      <created>1658418389009</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658418389009</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +255,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Fix Testcase 2 &amp; 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Testcase 2 &amp; 3" />
   </component>
 </project>
