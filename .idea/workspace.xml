@@ -5,7 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea417c91-3d0a-4330-b14a-bd517c4dc8df" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20220320.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CampusJagerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/JobSearch_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/ConfigSetting.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParallelExecution.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/extentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automationtest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/automationtest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExcelFileReader/ExcelReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CareersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AboutUsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CompanyPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Config/ConfigProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/ExcelUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExcelFileReader/ExcelReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/CareersPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/CompanyPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Config/ConfigProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/Tests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/ExcelUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,23 +85,27 @@
     </option>
   </component>
   <component name="ProjectId" id="28AkIgpX0I2zs27E0sQP5UpoJ2K" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Repo&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/pro",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\automation testing\testautomation\resources" />
@@ -70,7 +117,7 @@
       <recent name="C:\Users\ZINAD\Desktop\Automation Interview\testautomation\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.G:/automation testing/testautomation/testng.xml (1)">
+  <component name="RunManager" selected="TestNG.Test2.Task3_2">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="testautomation" />
       <method v="2">
@@ -84,17 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="G:/automation testing/testautomation/ParallelExecution.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testautomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/ParallelExecution.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="G:/automation testing/testautomation/testng.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="G:/automation testing/testautomation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationtest" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -104,27 +141,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="G:/automation testing/testautomation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testautomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests.testCase3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testautomation" />
+    <configuration name="Test2.Task3_2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationtest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="login" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Tests" />
-      <option name="METHOD_NAME" value="testCase3" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Test2" />
+      <option name="METHOD_NAME" value="Task3_2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,8 +159,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testCase4" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testautomation" />
+    <configuration name="Tests.TestCase1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationtest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Tests.*" />
@@ -142,7 +169,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.Tests" />
-      <option name="METHOD_NAME" value="testCase4" />
+      <option name="METHOD_NAME" value="TestCase1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.TestCase2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Tests" />
+      <option name="METHOD_NAME" value="TestCase2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.testCase1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Tests" />
+      <option name="METHOD_NAME" value="testCase1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -152,10 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.G:/automation testing/testautomation/testng.xml (1)" />
+        <item itemvalue="TestNG.Test2.Task3_2" />
         <item itemvalue="TestNG.G:/automation testing/testautomation/testng.xml" />
-        <item itemvalue="TestNG.G:/automation testing/testautomation/ParallelExecution.xml" />
-        <item itemvalue="TestNG.Tests.testCase4" />
+        <item itemvalue="TestNG.Tests.TestCase1" />
+        <item itemvalue="TestNG.Tests.TestCase2" />
+        <item itemvalue="TestNG.Tests.testCase1" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655424534715</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial Commit">
+      <created>1655424604448</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655424604448</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +280,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>

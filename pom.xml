@@ -52,6 +52,20 @@
             <artifactId>extentreports</artifactId>
             <version>5.0.9</version>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>4.4.0</version>
+            <scope>test</scope>
+        </dependency>
+        <!--
+        https://mvnrepository.com/artifact/org.json/js
+        on -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20220320</version>
+        </dependency>
     </dependencies>
 </project>
