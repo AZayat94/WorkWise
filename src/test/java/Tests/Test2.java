@@ -21,12 +21,13 @@ public class Test2 extends BaseTests {
     }
     @Test
     public void Task3_2(){
-        for (int i = 0; i < Titles.size()-1; i++) {
+        for (int i = 0; i < Titles.size(); i++) {
            String Title =  CampusJagerPage.Get_Title();
-            CampusJagerPage.Click_on_Next_Button();
+           if (CampusJagerPage.GetNextbutton().size()>0) {
+               CampusJagerPage.Click_on_Next_Button();
+           }
             System.out.println(Title);
             Assert.assertEquals(Title, Titles.get(i));
-
         }
     }
 }

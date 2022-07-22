@@ -1,11 +1,11 @@
 package pages;
 
-import org.bouncycastle.cms.PasswordRecipient;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
 
 public class CampusJagerPage {
 
@@ -33,6 +33,10 @@ public class CampusJagerPage {
 
     }
 
+    public List<WebElement> GetNextbutton(){
+        List<WebElement> NextBtn = driver.findElements(NextButton);
+        return NextBtn;
+    }
     public void Click_on_Next_Button(){
         ScrollIntoView(Header);
         driver.findElement(NextButton).click();
